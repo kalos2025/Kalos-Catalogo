@@ -1,0 +1,188 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <!-- Agregado para relacionar archivos -->
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./javascript/main.js"></script>
+    
+    <!-- Título del sitio -->
+    <title>© Kalos Aromatizantes</title>
+
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+    <!-- ver script -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#fcfaf8] justify-between group/design-root overflow-x-hidden"
+      style='font-family: "Work Sans", "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-[#fcfaf8] p-4 pb-2 justify-between">
+          <!-- Título del encabezado -->
+          <h2 class="text-[#1b140e] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">© Kalos - Catálogo</h2>
+          <!-- Logo -->
+          <div class="flex w-12 items-center justify-end">
+            <a href="https://www.instagram.com/kalos.aromatizantes" target="_blank" rel="noopener noreferrer">
+              <img 
+                src="Imágenes/Logo.png" 
+                alt="Kalos" 
+                class="h-10 w-10 rounded-lg object-cover"
+              >
+            </a>
+          </div>
+        </div>
+        <!-- Buscador -->
+        <div class="px-4 py-3">
+          <label class="flex flex-col min-w-40 h-12 w-full">
+            <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+              <div
+                class="text-[#ffffff] flex border-none bg-[#46bdc6] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                data-icon="MagnifyingGlass"
+                data-size="24px"
+                data-weight="regular"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+                </svg>
+              </div>
+              
+              <input
+                placeholder="Búsqueda de productos"
+                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#1b140e] focus:outline-0 focus:ring-0 border-none bg-[#f3ede7] focus:border-none h-full placeholder:text-[#46bdc6] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                value=""
+              />
+            </div>
+          </label>
+        </div>
+        <!-- Imágen principal destacada-->
+        <div class="@container">
+          <div class="@[480px]:px-4 @[480px]:py-3">
+            <div
+              class="bg-cover bg-center flex flex-col justify-end overflow-hidden bg-[#fcfaf8] @[480px]:rounded-lg min-h-[218px]"
+              style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 25%), url("./Imágenes/Porta\ sahumerios\ -\ sentidos.jpg");'
+            >
+              <div class="flex p-4"><p class="text-white tracking-light text-[28px] font-bold leading-tight">Destacado: Porta sahumerios - sentidos</p></div>
+            </div>
+          </div>
+        </div>
+        <!-- Sección: Nuevos productos-->
+        <section>
+        <h2 class="text-[#1b140e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Recién llegados</h2>
+        <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+          <div class="flex items-stretch p-4 gap-3">
+            <!-- Producto 1 -->
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCMhw2vzrhuYH-l-Bj2TO2NMWwjCDqPrTU22C8O1fbquCPY7rvJr0BVfZI-PCqKGnFB4U_X8nu5QfZrXvwAJdetIMkbpKJh0gjEbHxk-i6a0OaJAZ5lTJA4mZ2ZWNBQmGi_jLH_3ysX6Sgb9iLY1ByHgKm1pcT6f3VTZ-HdIpxLUNvZTIN-FxLAnl1zr7Bv0D08xBFd1XNyvbYcXh8p7uwIa_tcqgzxO74Jy5dM2YmqgRH3Y9rR9BN2XPkaE9QRY_GGylwMIvu9lK03");'
+              ></div>
+              <div>
+                <p class="text-[#1b140e] text-base font-medium leading-normal">Rustic Mug</p>
+                <p class="text-[#97734e] text-sm font-normal leading-normal">$25</p>
+              </div>
+            </div>
+            <!-- Producto 2 -->
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCplix2JKN-jg7z6evJuDoD4j7tn8T8ZzYqLU9e396RuzhUHg5BcnqCw-1Vc7Cx14lgr9z9h-xNd_h2BXaYwoZMYa99cQU57wTdd5mND6NFoQkvJ9yU1qmgYk3suqe8k1YPGIlmW9mEVdNkx6Ypr4pN1yASjY_1v0NlNwuxGBKRjIehdmopVV7XM1c2ixeNulc7yifVWrDxH1vS0uUVUowPqUK3WfJRj513ZR4MH4LBXr2sip1mL7zeLFdAtdyafwX0A_5LugXQYO0I");'
+              ></div>
+              <div>
+                <p class="text-[#1b140e] text-base font-medium leading-normal">Minimalist Bowl</p>
+                <p class="text-[#97734e] text-sm font-normal leading-normal">$30</p>
+              </div>
+            </div>
+            <!-- Producto 3 -->
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB_NYJLABf71mdJ0u3VMIJH1CSI40eHuxk_sKhOrNh6xyOE3i25uzHg3KJ8ed4XgBcsAdsQGLz6zvf1sx7R64lU-Cm3mxx0rwizkjBNPjEJKi9LAOTkcFJDqXGFSmRLqUuzaq_ABR_KEYzc9OqL3CY0mQwbmffXHxhJEAhQEaQw-gC9aMeBe-Wz1we9zCJz27c_Vtt7ehrfsQwV6-rzLJYRuVfi6CwWnSUS2Kt_IBsj7zfPM5LK9QpViVwApDf-zt7RkBmF7HAY7onI");'
+              ></div>
+              <div>
+                <p class="text-[#1b140e] text-base font-medium leading-normal">Modern Plate</p>
+                <p class="text-[#97734e] text-sm font-normal leading-normal">$20</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+        <!-- Sección: Los más vendidos -->
+        <section>
+          <h2 class="text-[#1b140e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Los más vendidos</h2>
+              
+          <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+    
+            <div id="contenedor-mas-vendidos" class="flex items-stretch p-4 gap-3">
+            <!-- Aquí se insertan los productos dinámicamente -->
+            </div>
+
+          </div>
+          <nav id="pagination-nav" class="flex justify-center items-center py-4"></nav>
+        </section>
+        <!-- Sección: Ofertas -->
+        <section>
+          <h2 class="text-[#1b140e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Ofertas</h2>
+              
+          <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+    
+            <div id="contenedor-ofertas" class="flex items-stretch p-4 gap-3">
+            <!-- Aquí se insertan los productos dinámicamente -->
+            </div>
+
+          </div>
+          <nav id="pagination-nav-ofertas" class="flex justify-center items-center py-4"></nav>
+
+        </section>
+      </div>
+      <!-- Menú inferior -->
+      <div>
+        <div class="flex gap-2 border-t border-[#f3ede7] bg-[#fcfaf8] px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-[#1b140e]" href="#">
+            <div class="text-[#1b140e] flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"
+                ></path>
+              </svg>
+            </div>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#47a6b0]" href="https://www.instagram.com/kalos.aromatizantes" target="_blank">
+            <div class="text-[#47a6b0] flex h-8 items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path>
+              </svg>
+            </div>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#47a6b0]" href="https://www.facebook.com/kalos.aromatizantes" target="_blank">
+            <div class="text-[#47a6b0] flex h-8 items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path d="M232,128a104,104,0,1,1-104-104A104.11,104.11,0,0,1,232,128Zm-88,60V128h20a12,12,0,0,0,0-24H144V88a12,12,0,0,1,12-12h12a12,12,0,0,0,0-24H156a36,36,0,0,0-36,36v16H100a12,12,0,0,0,0,24h20v60a12,12,0,0,0,24,0Z"></path>
+              </svg>
+            </div>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#47a6b0]" href="https://wa.me/+5493765119070" target="_blank">
+            <div class="text-[#47a6b0] flex h-8 items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path d="M128,24A104,104,0,0,0,36.18,176.88L24.83,219.15a16,16,0,0,0,19,19l42.27-11.35A104,104,0,1,0,128,24Zm42.22,124.28a12,12,0,0,1-18.44,14.68,54.23,54.23,0,0,1-24.9-15.1,65.61,65.61,0,0,1-21.78-31.47,12,12,0,0,1,7.09-15.9l19.5-8.12a12,12,0,0,1,14.09,4.5l10.74,18.8a12,12,0,0,1-1.39,15.11l-9.3,10.15a4,4,0,0,0-.43,5.38,45.42,45.42,0,0,0,25.43,25.43,4,4,0,0,0,5.38-.43l10.15-9.3a12,12,0,0,1,15.11-1.39l18.8,10.74A12,12,0,0,1,170.22,148.28Z"></path>
+              </svg>
+            </div>
+          </a>
+        </div>
+        <p class="text-[#1b140e] text-lg leading-tight tracking-[-0.015em] flex-1 text-center pl-12">Av. Trincheras de San José 2235. Posadas, Misiones.</p>
+        <h2 class="text-[#47a6b0] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">© 2025 Kalos - Aromatizantes. Todos los derechos reservados.</h2>
+        <div class="h-5 bg-[#fcfaf8]"></div>
+      </div>
+      <!-- Fin menú inferior -->
+    </div>
+  </body>
+</html>
