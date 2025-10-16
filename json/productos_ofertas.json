@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "Imagen": "./Imágenes/Modelo-4.png",
+    "Código": "AA-02",
+    "Producto": "Aceite Ámbar - Coco Vai",
+    "Descripción": "",
+    "Categoría": "ESENCIAS",
+    "Precio_público": 2300,
+    "Precio_mayorista": 1800,
+    "Precio_oferta": 1600,
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 2,
+    "Imagen": "./Imágenes/Modelo-4.png",
+    "Código": "AA-03",
+    "Producto": "Aceite Ámbar - Flores Blancas",
+    "Descripción": "",
+    "Categoría": "ESENCIAS",
+    "Precio_público": 2300,
+    "Precio_mayorista": 1800,
+    "Precio_oferta": 1600,
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 3,
+    "Imagen": "./Imágenes/Modelo-4.png",
+    "Código": "AA-19",
+    "Producto": "Aceite Ámbar - Incienso",
+    "Descripción": "",
+    "Categoría": "ESENCIAS",
+    "Precio_público": 2300,
+    "Precio_mayorista": 1800,
+    "Precio_oferta": 1600,
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 4,
+    "Imagen": "./Imágenes/Modelo-4.png",
+    "Código": "AA-07",
+    "Producto": "Aceite Ámbar - Limón",
+    "Descripción": "",
+    "Categoría": "ESENCIAS",
+    "Precio_público": 2300,
+    "Precio_mayorista": 1800,
+    "Precio_oferta": 1600,
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 5,
+    "Imagen": "./Imágenes/Modelo-4.png",
+    "Código": "AA-08",
+    "Producto": "Aceite Ámbar - Linah",
+    "Descripción": "",
+    "Categoría": "ESENCIAS",
+    "Precio_público": 2300,
+    "Precio_mayorista": 1800,
+    "Precio_oferta": 1600,
+    "Estado": "Disponible"
+  }
+]
