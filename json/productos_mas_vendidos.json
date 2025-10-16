@@ -1,1 +1,122 @@
-
+[
+  {
+    "Id": 1,
+    "Imagen": "./Imágenes/Producto-1.jpeg",
+    "Código": "AM-66",
+    "Producto": "Difusor Saphirus - Coco Maracuyá",
+    "Descripción": "",
+    "Categoría": "DIFUSORES",
+    "Precio_público": 5700,
+    "Precio_mayorista": 4300,
+    "Precio_oferta": "",
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 2,
+    "Imagen": "./Imágenes/Producto-1.jpeg",
+    "Código": "NBLCT-09",
+    "Producto": "Dispenser 09 - A Pilas",
+    "Descripción": "",
+    "Categoría": "EQUIPOS AROMATIZADORES",
+    "Precio_público": 14300,
+    "Precio_mayorista": 10700,
+    "Precio_oferta": "",
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 3,
+    "Imagen": "./Imágenes/Producto-1.jpeg",
+    "Código": "RT-05",
+    "Producto": "Ruta 66 Saphirus - Marino",
+    "Descripción": "",
+    "Categoría": "AUTO AROMAS",
+    "Precio_público": 3400,
+    "Precio_mayorista": 2500,
+    "Precio_oferta": "",
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 4,
+    "Imagen": "./Imágenes/Producto-1.jpeg",
+    "Código": "SA-05",
+    "Producto": "Sahumerios Ambar - Coco",
+    "Descripción": "",
+    "Categoría": "SAHUMERIOS",
+    "Precio_público": 1300,
+    "Precio_mayorista": 1050,
+    "Precio_oferta": "",
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 5,
+    "Imagen": "./Imágenes/Producto-1.jpeg",
+    "Código": "FT-82",
+    "Producto": "Textil Saphirus - Breeze",
+    "Descripción": "",
+    "Categoría": "TEXTIL SAPHIRUS",
+    "Precio_público": 4000,
+    "Precio_mayorista": 3000,
+    "Precio_oferta": "",
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 6,
+    "Imagen": "./Imágenes/Producto-1.jpeg",
+    "Código": "FT-18",
+    "Producto": "Textil Saphirus - Rocio",
+    "Descripción": "",
+    "Categoría": "TEXTIL SAPHIRUS",
+    "Precio_público": 4000,
+    "Precio_mayorista": 3000,
+    "Precio_oferta": "",
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 7,
+    "Imagen": "./Imágenes/Producto-1.jpeg",
+    "Código": "IMPORT-16",
+    "Producto": "Aromatizante Colgante Multiuso \"c/ piedras\" \"HPXX-07\"",
+    "Descripción": "",
+    "Categoría": "AROMATIZADORES",
+    "Precio_público": 2600,
+    "Precio_mayorista": 2300,
+    "Precio_oferta": "",
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 8,
+    "Imagen": "./Imágenes/Producto-1.jpeg",
+    "Código": "IMPORT-18",
+    "Producto": "Vela Flotante 50PCS Blanco \"HA-750\"",
+    "Descripción": "",
+    "Categoría": "VELAS / HORNILLOS",
+    "Precio_público": 200,
+    "Precio_mayorista": "",
+    "Precio_oferta": "",
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 9,
+    "Imagen": "./Imágenes/Producto-1.jpeg",
+    "Código": "FA-79",
+    "Producto": "Aerosol Saphirus - Breeze",
+    "Descripción": "",
+    "Categoría": "AEROSOLES SAPHIRUS",
+    "Precio_público": 5800,
+    "Precio_mayorista": 4400,
+    "Precio_oferta": "",
+    "Estado": "Sin stock"
+  },
+  {
+    "Id": 10,
+    "Imagen": "./Imágenes/Producto-1.jpeg",
+    "Código": "IMPORT-03",
+    "Producto": "Pila AA Panasonic",
+    "Descripción": "",
+    "Categoría": "PILAS",
+    "Precio_público": 1000,
+    "Precio_mayorista": 875,
+    "Precio_oferta": "",
+    "Estado": "Sin stock"
+  }
+]
