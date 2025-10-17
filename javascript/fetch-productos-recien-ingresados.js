@@ -14,7 +14,7 @@ const paginationContainer = document.querySelector('#pagination-nav-r-ingresados
 // === ESTADO Y CONFIGURACIÓN DE LA PAGINACIÓN ===
 let allProducts = [];
 let currentPage = 1;
-const productsPerPage = 20;
+const productsPerPage = 10;
 
 /**
  * Muestra los productos correspondientes a una página específica.

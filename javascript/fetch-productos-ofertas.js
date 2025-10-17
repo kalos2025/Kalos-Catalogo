@@ -43,7 +43,6 @@ function displayProducts(page) {
         <h3 class="text-lg font-bold text-[#1b140e]">${producto.Producto}</h3>
         <small class="text-gray-500 mb-2">${producto.Código} | ${producto.Categoría}</small>
         <p class="text-gray-700 text-sm mb-4 flex-grow">${producto.Descripción}</p>
-        <small class="text-gray-500 mb-2">Público ${precioPublicoFormateado}</small>
         <p class="text-sm font-semibold text-[#97734e] mb-2">Oferta! ${precioOfertaFormateado}</p>
         <p class="text-sm font-bold text-[#47a6b0]">${producto.Estado}</p>
       </div>
