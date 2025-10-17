@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "Imagen": "./Imágenes/Modelo-3.png",
+    "Código": "AA-15",
+    "Producto": "Aceite Ámbar - Palo Santo",
+    "Descripción": "",
+    "Categoría": "ESENCIAS",
+    "Precio_público": 2300,
+    "Precio_mayorista": 1800,
+    "Precio_oferta": "",
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 2,
+    "Imagen": "./Imágenes/Modelo-3.png",
+    "Código": "AE-27",
+    "Producto": "Aceite Saphirus - Amber",
+    "Descripción": "",
+    "Categoría": "ESENCIAS",
+    "Precio_público": 3600,
+    "Precio_mayorista": 2800,
+    "Precio_oferta": "",
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 3,
+    "Imagen": "./Imágenes/Modelo-3.png",
+    "Código": "AE-01",
+    "Producto": "Aceite Saphirus - Bamboo",
+    "Descripción": "",
+    "Categoría": "ESENCIAS",
+    "Precio_público": 3600,
+    "Precio_mayorista": 2800,
+    "Precio_oferta": "",
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 4,
+    "Imagen": "./Imágenes/Modelo-3.png",
+    "Código": "AE-38",
+    "Producto": "Aceite Saphirus - Bergamota",
+    "Descripción": "",
+    "Categoría": "ESENCIAS",
+    "Precio_público": 3600,
+    "Precio_mayorista": 2800,
+    "Precio_oferta": "",
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 5,
+    "Imagen": "./Imágenes/Modelo-3.png",
+    "Código": "AE-40",
+    "Producto": "Aceite Saphirus - Cedro",
+    "Descripción": "",
+    "Categoría": "ESENCIAS",
+    "Precio_público": 3600,
+    "Precio_mayorista": 2800,
+    "Precio_oferta": "",
+    "Estado": "Disponible"
+  },
+  {
+    "Id": 6,
+    "Imagen": "./Imágenes/Modelo-3.png",
+    "Código": "AE-28",
+    "Producto": "Aceite Saphirus - Cinnamon",
+    "Descripción": "",
+    "Categoría": "ESENCIAS",
+    "Precio_público": 3600,
+    "Precio_mayorista": 2800,
+    "Precio_oferta": "",
+    "Estado": "Disponible"
+  }
+]
