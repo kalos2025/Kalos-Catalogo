@@ -35,7 +35,7 @@ function displayProducts(page) {
     const precioMayoristaFormateado = formatearMoneda(producto.Precio_mayorista);
 
     productCard.innerHTML = `
-      <div class="w-full h-48 bg-center bg-cover" style="background-image: url('${producto.Imagen}');"></div>
+      <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col" style="background-image: url('${producto.Imagen}');"></div>
       <div class="p-4 flex flex-col flex-grow">
         <h3 class="text-lg font-bold text-[#1b140e]">${producto.Producto}</h3>
         <small class="text-gray-500 mb-2">${producto.Código} | ${producto.Categoría}</small>
