@@ -30,14 +30,14 @@
         <div class="flex items-center bg-[#fcfaf8] p-4 pb-2 justify-between">
           <!-- Título del encabezado -->
           <h2 class="text-[#1b140e] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">© Kalos - Catálogo 2025</h2>
-
+          
           <!-- Menú principal -->
           <nav>
             <!-- <a href="">
             Inicio
             </a> -->
-            <!-- Productos -->
-            <a href="productos.html">Productos</a>
+            <!-- Inicio -->
+            <a href="index.html">Inicio</a>
             <!-- Logo -->
             <div class="flex w-12 items-center rounded-lg shadow-lg justify-end"> 
               <a href="https://www.instagram.com/kalos.aromatizantes" target="_blank" rel="noopener noreferrer">
@@ -49,62 +49,56 @@
               </a>
             </div>
           </nav>
-          </div>
         </div>
-
+        <!-- Buscador -->
+        <div class="px-4 py-3">
+          <label class="flex flex-col min-w-40 h-12 w-full">
+            <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+              <div
+                class="text-[#ffffff] flex border-none bg-[#46bdc6] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                data-icon="MagnifyingGlass"
+                data-size="24px"
+                data-weight="regular"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+                </svg>
+              </div>
+              
+              <input
+                placeholder="Búsqueda de productos"
+                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#1b140e] focus:outline-0 focus:ring-0 border-none bg-[#f3ede7] focus:border-none h-full placeholder:text-[#46bdc6] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                value=""
+              />
+            </div>
+          </label>
+        </div>
         <!-- Imágen principal destacada-->
         <div class="@container">
           <div class="@[480px]:px-4 @[480px]:py-3">
             <div
               class="bg-cover bg-center flex flex-col justify-end overflow-hidden bg-[#fcfaf8] @[480px]:rounded-lg min-h-[218px]"
-              style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 25%), url("./Imágenes/Porta\ sahumerios\ -\ sentidos.jpg");'
+              style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 25%), url("./Imágenes/Fondo.png");'
             >
-              <div class="flex p-4"><p class="text-white tracking-light text-[28px] font-bold leading-tight">Destacado: Porta sahumerios - sentidos</p></div>
+              <div class="flex p-4"><p class="text-white tracking-light text-[28px] font-bold leading-tight"></p></div>
             </div>
           </div>
         </div>
 
-        <!-- Sección: Ofertas -->
+        <!-- Sección: Todos los productos -->
         <section>
-          <h2 class="text-[#1b140e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Ofertas</h2>
+          <h2 class="text-[#1b140e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Todos los productos</h2>
               
           <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
     
-            <div id="contenedor-ofertas" class="flex items-stretch p-4 gap-3">
+            <div id="contenedor-todos" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-4 gap-3">
             <!-- Aquí se insertan los productos dinámicamente -->
             </div>
 
           </div>
-          <nav id="pagination-nav-ofertas" class="flex justify-center items-center py-4"></nav>
-
-        </section>
-        <!-- Sección: Los más vendidos -->
-        <section>
-          <h2 class="text-[#1b140e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Los más vendidos</h2>
-              
-          <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-    
-            <div id="contenedor-mas-vendidos" class="flex items-stretch p-4 gap-3">
-            <!-- Aquí se insertan los productos dinámicamente -->
-            </div>
-
-          </div>
-          <nav id="pagination-nav" class="flex justify-center items-center py-4"></nav>
+          <nav id="pagination-nav-todos" class="flex justify-center items-center py-4"></nav>
         </section>
 
-        <!-- Sección: Nuevos productos-->
-        <section>
-          <h2 class="text-[#1b140e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Recién ingresados</h2>
-              
-          <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-    
-            <div id="contenedor-r-ingresados" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-4 gap-3">
-            <!-- Aquí se insertan los productos dinámicamente -->
-            </div>
-
-          </div>
-          <nav id="pagination-nav-r-ingresados" class="flex justify-center items-center py-4"></nav>
-        </section>
       </div>
       <!-- Menú inferior -->
       <div>
