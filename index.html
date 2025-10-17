@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    
+
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
 
     <link
@@ -32,7 +32,7 @@
       <div>
         <div class="flex items-center bg-[#fcfaf8] p-4 pb-2 justify-between">
           <!-- Título del encabezado -->
-          <h2 class="text-[#1b140e] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">© Kalos - Catálogo 2025</h2>
+          <h2 class="text-[#1b140e] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-left">© Kalos - Catálogo 2025</h2>
 
           <!-- Menú principal -->
           <nav>
@@ -66,6 +66,20 @@
             </div>
           </div>
         </div>
+        <!-- Sección: Destacados -->
+        <section>
+          <h2 class="text-[#1b140e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Destacados</h2>
+              
+          <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+    
+            <div id="contenedor-destacados" class="flex items-stretch p-4 gap-3">
+            <!-- Aquí se insertan los productos dinámicamente -->
+            </div>
+
+          </div>
+          <nav id="pagination-nav-destacados" class="flex justify-center items-center py-4"></nav>
+
+        </section>
 
         <!-- Sección: Ofertas -->
         <section>
